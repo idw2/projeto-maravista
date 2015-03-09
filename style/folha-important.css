@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09/01/2014, 18:40:11
+    Author     : designlab
+*/
+
+.ContainerAcomodacao { color: #3a3a3a }
+
+.painel .painel-label{ 
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  margin-top: -15px;
+  padding: 6px;
+  margin-bottom: 12px;
+  height: initial;
+  background: #fff;
+}
+
+#formReserva div.fancy-select div.trigger{/* width: 100%; margin: 12px 0; */}
+
+.ContainerAcomodacao .HiddenDiv{  }
+.ContainerAcomodacao .HiddenDiv:last-child{ }
+
+.painel { display: inline-block; width: 100%; margin: 25px 0; padding: 0 25px 25px; border: solid 1px #ccc }
+
+.dd-container{}
+.dd-select{ background: #FFF !important }
+.dd-selected-value{}
+.dd-selected{ color: #2a2a2a }
+.dd-selected:hover { color: #3a3a3a }
+.dd-selected a{ color: #1A95C2 }
+.dd-selected a:hover{ color: #3580C2 }
+.dd-options{ box-shadow: none; box-shadow: 0 1px 5px rgba(0,0,0,0.25) }
+.dd-option{}
+.dd-option-text{ color: #1a1a1a; }
+.dd-desc{  }
+.dd-option-image, .dd-selected-image{ margin-right: 12px }
+
+.EscolhaAcomodacaoContinue{
+  display: inline-block;
+  width: 100%; 
+}
+.n_pessoas{ opacity: 0; }
+.chegada{ border-bottom: solid 1px rgba(0,0,0,0.1); padding: 2px 0; }
+.chegada.u{ border: none; padding-bottom: 10px; }
+
+.chegada b, .chegada span{ display: inline-block }
+.chegada b{font-size: 14px; width: 49%; float: left; }
+.chegada span{ width: 50%; }
+
+
+.ContainerAcomodacao .InformeAcomodacao, .ContainerAcomodacao .InformePessoas{ display: inline-block }
+.ContainerAcomodacao .InformeAcomodacao{ width: 49%; float: left; }
+.ContainerAcomodacao .InformePessoas{ width: 50%;  }
+
+.HiddenDiv table,.HiddenDiv tbody,.HiddenDiv tr{ display: inline-block; width: 100% }
+
+.col-50{ }
+
+.EntradaText input{ margin-right: 8px;  font-weight: 300;}
+
+.form_container .LabelAcomodacaoTitle.left{
+  padding-bottom: 12px;
+}
+
+#formReserva .EntradaText b, .EntradaText span{ display: inline-block }
+#formReserva .EntradaText b{font-size: 14px; width: 49%; float: left; }
+#formReserva .EntradaText span{ width: 50%; }
+#formReserva .EntradaText span#observacoes_parent{ width: 100%; }
+
+.painel .EntradaText{ display: inline-block; width: 100%;  position: relative; padding-bottom: 12px; margin-bottom: 12px  !important; border-bottom: solid 1px #E0E0E0; }
+.painel .EntradaText{}
+.painel .EntradaText input{ margin-bottom: 12px; }
+.painel .EntradaText table,
+.painel .EntradaText table tr,
+.painel .EntradaText table iframe,
+.painel .EntradaText table td{ 
+    width: 100%; 
+    max-width: 100%; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+}
+
+.painel .EntradaText input[type=text].inp-nome { 
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0 12px !important;
+  height: 42px;
+  margin: 0;
+}
+.reservas-analisa .painel div.fancy-select{ display: inline-block; float: right; }
+
+.painel .EntradaText.ckr-termos{
+  
+}
+
+table.mceLayout tr.mceFirst{ display: none; }
+table.mceLayout tr.mceLast #observacoes_path_row{ display: none; }
+
+.dtaCalendarioSubmit_div.continuacao{ float: right }

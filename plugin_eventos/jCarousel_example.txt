@@ -1,0 +1,17 @@
+http://www.gmarwaha.com/jquery/jcarousellite/#doc
+
+http://www.gmarwaha.com/jquery/jcarousellite/#demo
+
+
+
+Galeria de Imagens
+http://www.gmarwaha.com/jquery/jcarousellite/#demo
+
+
+Imagem slides
+http://www.gmarwaha.com/jquery/jcarousellite/#demo
+
+
+
+Imagem slides com controlador externo
+http://www.gmarwaha.com/jquery/jcarousellite/#demo

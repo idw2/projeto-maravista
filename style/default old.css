@@ -1,0 +1,172 @@
+/*reset page html*/
+
+body
+{
+	margin: 0;
+	margin-top: -12px;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+}
+
+.dv_main {
+	width:300px; 
+	background-color:#CCC; 
+	height:160px; 
+	position:absolute; 
+	left:50%; 
+	top:50%; 
+	margin-left:-150px;
+	margin-top:-80px;
+}
+
+.dv_color { 
+	width:400px; 
+	height:50px; 
+	margin-top:5px;
+}
+
+.ResetFloat
+{
+	clear: both;
+}
+
+.ShowBandeirasInter
+{
+	float: right;
+	width: 65px;
+}
+
+.ShowInputBandeiras
+{
+	width: 50%;
+}
+
+.anyClass
+{
+	position: absolute !important;
+	top: 145px;
+}
+
+.InitTop
+{
+	position: relative;
+	z-index: 1000;
+	background: url("../image/bg_left.jpg") no-repeat scroll center right;
+	margin: 0;
+	padding: 0;
+	height: 202px;
+    width: 40%;
+	float: left;
+}
+
+.Backazul
+{
+	background: url("../image/bg_azul.jpg") no-repeat scroll top left;
+	margin: 0;
+	padding: 0;
+	height: 330px;
+    width: 40%;
+	margin-top: 244px;
+}
+
+.Logo
+{
+	background: url("../image/logo.png") no-repeat scroll top right;
+    float: right;
+    height: 166px;
+    margin-top: 20px;
+    width: 68%;
+}
+
+.Bandeiras
+{
+	position: relative;
+	z-index: 1000;
+	background: url("../image/bg_right.jpg") scroll top left;
+	float: left;
+    width: 60%;
+	padding-top: 30px;
+	height: 127px;
+}
+
+.Mainmenu
+{
+	height: 60px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 3%;
+}
+
+.LinksMenu a
+{
+	color: #404041;
+	font-size: 10.5pt;
+	text-decoration: none;
+	float: left;
+	padding-right: 20px;
+	
+}
+
+.LinksMenu a:hover
+{
+	text-decoration: underline;
+}
+
+.Pouzada
+{
+	color: #9d9d9d;
+	font-size: 12.0pt;
+	text-align: right;
+	padding-right: 5%;
+	padding-bottom: 3%;	
+}
+
+.Reserve
+{
+	color: #fff;
+	font-size: 16.0pt;
+}
+
+.Seuquarto
+{
+	color: #fff;
+	font-weight: bold;
+	font-size: 16.0pt;
+	padding-left: 6px;
+}
+
+.TextBackzul
+{
+	text-align: right;
+	padding-top: 14px;
+	padding-right: 40px;
+}
+
+.LoginUser
+{
+	position: absolute;
+	top: 15px;
+	left: 3%;
+}
+
+.LoginLabel
+{
+	float: left;
+	color: #404041;
+	padding-right: 5px;
+	cursor: pointer;
+}
+
+.LoginLabel:hover
+{
+	text-decoration: underline;	
+}
+
+.LoginLabel .Seta
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+	padding-right: 2px;
+}

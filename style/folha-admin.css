@@ -1,0 +1,355 @@
+/*
+*
+*   by: ahmad
+*   data: 11/12/2013 10h
+*
+*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #2a2a2a;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:12px;
+}
+
+.left{ float: left; }
+.right{ float: right; }
+
+header.header_admin{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+    background-color: #2c2c2c;
+    background-image: -webkit-linear-gradient(top, #333, #222);
+    box-shadow: 0 1px 0 0 #303030,inset 0 1px 0 0 #4e4e4e;
+}
+
+.InitTop{ 
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding-left: 25px;
+    height: 100%;
+    width: 100px;
+    z-index: 10;
+}
+
+.Bandeiras{
+    position: relative;
+    top: 37px;
+    display: inline-block;
+    width: 200px;
+    padding-right: 25px;
+    z-index: 20;
+}
+
+.Bandeiras .Area{ display: none; }
+.Bandeiras .Pouzada{
+    display: none;
+    color: #c3c3c7;
+    font-size: 12.0pt;
+    text-align: right;
+    padding: 0;
+}
+.logo_min{
+    position: relative;
+    top: 18px;
+    width: 64px;
+    height: 64px;
+    background: url(../image/logo_adm_drop.png) no-repeat top left;
+}
+
+.Lists { width: 250px; }
+
+.Listw{ padding: 25px; }
+
+.SbNav{ width: 100%; }
+
+.ShowBandeiras{  }
+
+.ShowBandeiras .ShowBandeirasInter{
+    position: relative;
+    float:right;
+    width: 45px;
+    height: 33px;
+}
+
+.ShowBandeiras .ShowBandeirasInter input{
+    width: 0;
+    height: 0;
+    padding: 12px 16px;
+    padding-left: 22px;
+    border: solid 1px #111;
+    box-shadow: 0 1px 0 0 rgba(255,255,255,0.25),inset 0 1px 0 0 rgba(255,255,255,0.25);
+    outline: none;
+}
+
+.ShowBandeirasInter form#Liportuguesfrom input{  background: url("../image/flags/flag_br.png") no-repeat 50% 50%; }
+.ShowBandeirasInter form#Liespanhouform input{  background: url("../image/flags/flag_es.png") no-repeat 50% 50%; }
+.ShowBandeirasInter form#Liinglesform input{  background: url("../image/flags/flag_en.png") no-repeat 50% 50%; }
+
+
+.LoginUser
+{
+	position: relative;
+        float: right;
+        margin-top: 50px;
+}
+
+.LoginLabel
+{
+	float: left;
+	color: #404041;
+	padding-right: 5px;
+	cursor: pointer;
+}
+
+.LoginLabel:hover
+{
+	text-decoration: underline;	
+}
+
+.BtnProprio
+{
+        display: inline-block;
+        height: 32px;
+        padding: 0 12px 0 12px;
+        margin: 0 7px 0 0;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 32px;
+        color: #333;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+        border: solid 1px #aaa;
+        float: left;
+        cursor: pointer;
+        text-decoration: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        box-shadow: 0 1px 0 0 rgba(0,0,0,0.05),inset 0 1px 0 0 #fff;
+        border-radius: 3px;
+        background-color: #f5f5f5;
+        background-image: -moz-linear-gradient(top, #fafafa, #ededed);
+        background-image: -ms-linear-gradient(top, #fafafa, #ededed);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#ededed));
+        background-image: -webkit-linear-gradient(top, #fafafa, #ededed);
+        background-image: linear-gradient(top, #fafafa, #ededed);
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#fffafafa', endColorstr='#ffededed', GradientType=0);
+        -webkit-transition: all .05s linear;
+        -moz-transition: all .05s linear;
+        -ms-transition: all .05s linear;
+        transition: all .05s linear;
+}
+
+.BtnProprio:hover
+{
+	color: #333;
+        background: #fcfcfc;
+        text-decoration: none;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2),inset 0 1px 0 0 #fff;
+}
+
+
+.LiloginText
+{
+	position: relative;
+        display: block;
+        width: 215px;
+        height: 30px;
+        padding: 0 12px 0 12px;
+        margin: 0;
+        margin-right: 12px;
+        line-height: 12px;
+        background: #fff;
+        border: solid 1px #888;
+        border-radius: 2px;
+        box-shadow: 0 1px 0 0 rgba(255,255,255,0.3),inset 0 1px 3px 0 rgba(0,0,0,0.15);
+        z-index: 10;
+}
+
+.LinhaPar td, .LinhaImpar td{ padding-left: 12px;  border-bottom: solid 1px #eaeaea; }
+.LinhaPar td:first-child, .LinhaImpar td:first-child{ text-align: center !important; padding-left: 0;}
+
+.LinhaPar
+{
+        position: relative;
+	height: 42px;
+        margin: -1px 0 0 0;
+        padding: 0;
+        border-top: solid 1px #eaeaea;
+        background: #fcfcfc;
+        z-index: 10;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        transition: none;
+        border-radius: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.LinhaImpar
+{
+        position: relative;
+	height: 42px;
+        margin: -1px 0 0 0;
+        padding: 0;
+        border-bottom: solid 1px #eaeaea;
+        border-top: solid 1px #eaeaea;
+        background: #f8f8f8;
+        z-index: 10;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        transition: none;
+        border-radius: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+#adminTopTable{ 
+    background: #f1f1f1;
+    height: 32px;
+    background-color: #f1f1f1;
+    background-image: -moz-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -ms-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9), to(#ececec));
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: linear-gradient(top, #f9f9f9, #ececec);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#ff555555', endColorstr='#ff666666', GradientType=0);
+    box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.3);
+}
+
+#adminTopTable td{ 
+    color: #666;
+    padding: 0 12px; 
+    border-width: 1px 0;
+    border-style: solid;
+    border-top-color: #fff;
+    border-bottom-color: #dfdfdf;
+}
+
+.MasterList
+{
+	border-top: dotted 1px #bbb;
+	margin-top: 12px;
+        padding-top: 12px;
+}
+
+      
+.Itemmenuheader
+{
+	height: 38px;
+        margin: 0;
+        border: solid 1px #3b3b3b;
+        z-index: 30;
+        background-color: #5c5c5c;
+        background-image: -moz-linear-gradient(top, #555, #666);
+        background-image: -ms-linear-gradient(top, #555, #666);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#555), to(#666));
+        background-image: -webkit-linear-gradient(top, #555, #666);
+        background-image: linear-gradient(top, #555, #666);
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#ff555555', endColorstr='#ff666666', GradientType=0);
+        box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.3);
+        color: #fff;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #3b3b3b;
+        line-height: 38px;
+        font-size: 16px;
+        text-align: center;
+}
+
+.Itemmenu a
+{
+        text-decoration: none;
+        display: inline-block;
+	padding: 6px 14px;
+        margin: 0;
+        width: 220px;
+        cursor: default;
+        color: #2a2a2a;
+        border-top: solid 1px #aaa;
+        border-left: solid 1px #aaa;
+        border-right: solid 1px #aaa;
+        background-color: #ebebeb;
+        background-image: -moz-linear-gradient(top, #f5f5f5, #ddd);
+        background-image: -ms-linear-gradient(top, #f5f5f5, #ddd);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#ddd));
+        background-image: -webkit-linear-gradient(top, #f5f5f5, #ddd);
+        background-image: linear-gradient(top, #f5f5f5, #ddd);
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#fff5f5f5', endColorstr='#ffdddddd', GradientType=0);
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.05),inset 0 1px 0 0 #fff;
+}
+
+.Itemmenu:last-child{ border-bottom: solid 1px #aaa; }
+
+.Itemmenu a:hover
+{
+	text-decoration: none;
+        color: #FFFFFF;
+        background-color: #ccc;
+        background-image: -moz-linear-gradient(top, #d5d5d5, #aaa);
+        background-image: -ms-linear-gradient(top, #d5d5d5, #ccc);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d5d5d5), to(#ccc));
+        background-image: -webkit-linear-gradient(top, #5E5E5E, #858585);
+        background-image: linear-gradient(top, #d5d5d5, #ccc);
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#fff5f5f5', endColorstr='#ffdddddd', GradientType=0);
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.05),inset 0 1px 0 0 rgba(0,0,0,0.25);
+}
+
+a.adm_pag_active{
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #ccc;
+        background-image: -moz-linear-gradient(top, #d5d5d5, #aaa);
+        background-image: -ms-linear-gradient(top, #d5d5d5, #ccc);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d5d5d5), to(#ccc));
+        background-image: -webkit-linear-gradient(top, #5E5E5E, #858585);
+        background-image: linear-gradient(top, #d5d5d5, #ccc);
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#fff5f5f5', endColorstr='#ffdddddd', GradientType=0);
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.05),inset 0 1px 0 0 rgba(0,0,0,0.25);
+}
+
+.Maintitle
+{
+	color: #2a2a2a;
+	font-size: 24px;
+	font-weight: bold;
+        float: left;
+}
+
+.Maintitle.Btnback{ display: none; }
+
+.Userlabel{ margin-top: 12px; margin: 12px 0; border-top: dotted 1px #bbb; color: #2a2a2a; font-size: 16px; font-weight: bold; }
+
+.mceIframeContainer iframe{ min-width: 500px; width: 900px; }
+
+.Litituloback
+{
+	width: 100%;
+	margin-bottom: 65px;
+}
+
+.EntradaTextForm input[type=file]{ margin: 12px 0; } 
+
+
+.LiloginText[type=password]{ margin-bottom: 15px; }
+.LiloginText[name=senha_atual]{ margin-bottom: 25px; }

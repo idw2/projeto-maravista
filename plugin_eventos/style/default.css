@@ -1,0 +1,147 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway',sans-serif;
+  color: #000;
+  background: transparent;
+}
+
+.Cabeca
+{
+  color: #666666;
+  font-size: 16.0pt;
+  font-weight: bold;
+  margin-left: 1%;
+  margin-left: 1%;
+}
+
+.Textos
+{
+  color: #8C8C8C;
+  line-height: 18px;
+  font-size: 10.0pt;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.Mais
+{
+  background: none repeat scroll 0 0 #333333;
+  border: 1px solid #6D9D1F;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 1%;
+  padding: 5px;
+  width: 74px;
+  font-size: 10.0pt;
+  margin-top: 5%;
+}
+
+.Imagem
+{
+  background: #fff; 
+  width: 100%;
+  cursor: pointer;
+}
+
+button
+{
+  background: none repeat scroll 0 0 #333333;
+  border: 1px solid #6D9D1F;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 1%;
+  padding: 23px 0px;
+  font-size: 40.0pt;
+  margin-top: 1%;
+  position: relative;
+  z-index: 200000
+}
+
+.next
+{
+  right: 20px;
+  bottom: 2px;
+
+}
+
+.prev
+{
+  bottom: 2px;
+
+}
+
+
+.eventos_container{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.eventos_ul{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 372px;
+  padding: 0;
+  margin: 0;
+}
+
+.eventos_item{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: 753px 100% !important;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.eventos_item_inner{
+  position: absolute;
+  display: inline-block;
+  top: 22px;
+  bottom: 22px;
+  left: 22px;
+  right: 22px;
+  padding: 42px 35px;
+  background: rgba(255,255,255,0.85);
+}
+
+.eventos_item_inner p{
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.eventos_item_inner h2,
+.eventos_item_inner h3,
+.eventos_item_inner span{ cursor: default; }
+
+.eventos_item_inner h2,
+.eventos_item_inner h3{ color: #053537 }
+
+.eventos_item_inner h2{ margin-top: 0; margin-bottom: 12px; text-transform: uppercase; font-size: 36px; font-size: 2.25rem; font-weight: 100; }
+.eventos_item_inner h3{ margin-top: 0; font-size: 22px; font-size: 1.375rem; font-weight: 100; max-height: 170px; overflow: hidden; }
+.eventos_item_inner .saibamais{ position: absolute; bottom: 17px; right: 22px; color: #01afe1; font-weight: 200; cursor: pointer; background: url(../image/mark_topleft.png) no-repeat top left; text-align: right; padding-left: 15px;}
+.eventos_item_inner .saibamais:hover{ color: #01bcf2; }
+
+.flex-control-nav{ bottom: 5px; }
+.flex-direction-nav{ display: none; }
+.flex-control-paging li a{ 
+  background: #c3c3c7; 
+  background: rgba(255,255,255,0.5);
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  -o-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.flex-control-paging li a:hover{
+  background: #ccc;
+  background: rgba(255,255,255,0.9);
+}
+
+.flex-control-paging li a.flex-active{ background: #FFF; background: rgba(255,255,255,0.9); }

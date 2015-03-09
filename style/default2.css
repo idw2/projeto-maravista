@@ -1,0 +1,226 @@
+/*reset page html*/
+
+.dv_main {
+	width:300px; 
+	background-color:#CCC; 
+	height:160px; 
+	position:absolute; 
+	left:50%; 
+	top:50%; 
+	margin-left:-150px;
+	margin-top:-80px;
+}
+
+.dv_color { 
+	width:400px; 
+	height:50px; 
+	margin-top:5px;
+}
+
+.ResetFloat
+{
+	clear: both;
+}
+
+.anyClass
+{
+	position: absolute !important;
+	top: 145px;
+}
+
+.Backazul
+{
+	background: url("../image/bg_azul.jpg") no-repeat scroll top left;
+	margin: 0;
+	padding: 0;
+	height: 330px;
+    width: 40%;
+}
+
+.Logo
+{
+	background: url("../image/maravista.jpg") no-repeat scroll center center;
+    height: 206px;
+    margin-top: 20px;
+    width: 68%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Logoposition
+{
+	position: relative;
+	right: 105px;
+}
+
+.Mainmenu
+{
+	height: 60px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 3%;
+}
+
+.LinksMenu a
+{
+	color: #404041;
+	font-size: 10.5pt;
+	text-decoration: none;
+	float: left;
+	padding-right: 20px;
+	
+}
+
+.LinksMenu a:hover
+{
+	text-decoration: underline;
+}
+
+.Pouzada
+{
+	color: #9d9d9d;
+	font-size: 12.0pt;
+	text-align: right;
+	padding-right: 5%;
+	padding-bottom: 3%;
+}
+
+.Reserve
+{
+	color: #fff;
+	font-size: 16.0pt;
+}
+
+.Seuquarto
+{
+	color: #fff;
+	font-weight: bold;
+	font-size: 16.0pt;
+	padding-left: 6px;
+}
+
+.TextBackzul
+{
+	text-align: right;
+	padding-top: 14px;
+	padding-right: 40px;
+}
+
+.Seta
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+	padding-right: 2px;
+}
+
+.LoginLabel .Seta
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+	padding-right: 2px;
+}
+
+.Admin
+{
+	margin-top: 10%;
+}
+
+.Ullogin
+{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.Lilabellogin
+{
+	color: #000;
+	font-size: 11.0pt;
+	margin-bottom: 2%;
+}
+
+.LiloginSubmit
+{
+	margin-top: 4%;
+	margin-bottom: 8%;
+}
+
+.LiloginError
+{
+	color: #000;
+	font-size: 11.0pt;
+	text-align: center;
+	
+}
+
+.Tablemaster
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.Ulnavegacaoprincipal
+{
+	margin: 0;
+	padding: 0;
+}	
+
+.Btnback
+{
+	float: right;
+}
+
+.Realceone
+{
+	width: 100%;
+	height: 9px;
+	background: #e6e6e6
+}
+
+.Realcetwo
+{
+	width: 100%;
+	height: 5px;
+	background: #999999;
+	margin-bottom: 3%;
+}
+
+.Area
+{
+	position: absolute;
+	color: $666;
+	font-size: 27pt;
+	margin-top: 12%;
+}
+
+.Tableinter
+{
+	width: 100%;
+        border-color: #dfdfdf;
+        border-spacing: 0;
+        border-collapse: collapse;
+        clear: both;
+}
+
+.Tableinter tr td{ 
+    border-width: 0;
+    border-style: solid;
+}
+/*
+.MasterList .Tableinter td[valign=top] div:last-child{ 
+    border: solid 1px #eaeaea;
+}
+*/
+
+.Floatbusca
+{
+	float: left;
+}
+
+.BemVindo
+{
+	list-style: none;
+}

@@ -1,0 +1,285 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/05/2014, 15:15:00
+    Author     : designlab
+*/
+
+$topbar-height: 60px;
+
+hmtl, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 969px) {
+
+  #corpo{
+    top: 0;
+    margin-top: 0;
+
+    .Backazul{
+      margin-top: 0 !important;
+      width: 100%;
+    }
+  }
+  .menu-bg, .menu-cont{
+    height: $topbar-height;
+  }
+
+  .menu-cont{
+    z-index: 200;
+    -moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,  rgb(255,255,255) 0%, rgb(245,245,245) 49%, rgb(225,225,225) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,255,255)), color-stop(49%,rgb(245,245,245)), color-stop(100%,rgb(225,225,225)));
+    background: -webkit-linear-gradient(top,  rgb(255,255,255) 0%,rgb(245,245,245) 49%,rgb(225,225,225) 100%);
+    background: -o-linear-gradient(top,  rgb(255,255,255) 0%,rgb(245,245,245) 49%,rgb(225,225,225) 100%);
+    background: -ms-linear-gradient(top,  rgb(255,255,255) 0%,rgb(245,245,245) 49%,rgb(225,225,225) 100%);
+    background: linear-gradient(to bottom,  rgb(255,255,255) 0%,rgb(245,245,245) 49%,rgb(225,225,225) 100%);
+  }
+
+  .menu-bg{
+    display:none;
+  }
+
+  border-bottom: 1px solid #000;
+  .InitTop{
+    float: left;
+    height: $topbar-height;
+    width: auto;
+  }
+
+  .formBackazul.maior{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .TextBackzul{
+    text-align: center;
+  }
+
+  .load_aguardando-label{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 60px;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: -50px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  }
+
+  #formReserva{
+    max-width: 100%;
+  }
+
+  .dtaCalendarioSubmit_div, .dtaCalendarioSubmit{
+    width: 100%;
+    background-image: none;
+  }
+
+  .Backazul{
+    padding-left: 0;
+  }
+
+  .load_aguardando{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #C7C7C7;
+    z-index: 9999999;
+  }
+
+  .Logo{
+    position: absolute;
+    display: inline-block;
+    margin: 0 !important;
+    width: 80px;
+    height: 60px;
+    z-index: 1000;
+    left: 50%;
+    padding: 30px 40px;
+    margin-left: -40px !important;
+    background-size: 66px 60px;
+    background-position: 50% 50%;
+  }
+
+  .ui-widget{
+    z-index: 500 !important;
+  }
+
+
+  .Bandeiras{
+    float: right;
+    height: $topbar-height;
+    width: auto;
+  }
+
+  .menu-bg-l{
+    height: $topbar-height;
+  }
+
+  .container, #corpo, .footer_container{
+    width: 100%;
+  }
+  .Mainmenu{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 1000px;
+    padding: 0;
+    background: #222;
+    color: #f1f1f1;
+    z-index: 0;
+
+    div.LinksMenu{
+      width: 100%;
+      padding: 0;
+
+      a{
+        isplay: inline-block;
+        float: left;
+        padding: 0 25px;
+        height: 42px;
+        line-height: 42px;
+      }
+    }
+
+  }
+  .ShowBandeiras{
+    display:inline-block;
+    width: 100%;
+
+    .ShowBandeirasInter{
+      display:inline-block;
+      vertical-align: top;
+      float: left;
+      width: 33.33%;
+      padding: 30px 0;
+      margin: 0 !important;
+
+      *{
+        margin: 0 auto 0 auto !important;
+      }
+    }
+  }
+  .site-wrap{
+    position: relative;
+    width:100%;
+    overflow-x: hidden;
+    z-index: 100;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+    -moz-transition: -moz-transform 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+    -o-transition: -o-transform 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+    -ms-transition: -ms-transform 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+    transition: transform 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+  }
+  .Bandeiras{
+    text-align: right;
+  }
+  .menu_mobile-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px 36px;
+    display: block;
+    cursor: pointer;
+
+    span{
+      position: absolute;
+      top: 50%;
+      right: 0;
+      display: block;
+      width: 30px;
+      height: 4px;
+      margin-top: -2px;
+      background-color: #999;
+      font-size: 0;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-transition: background-color .3s;
+      transition: background-color .3s;
+
+      &:before, &:after {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #999;
+        content: '';
+        -webkit-transition: -webkit-transform .3s;
+        transition: transform .3s;
+      }
+
+      &:before {
+        -webkit-transform: translateY(-250%);
+        transform: translateY(-250%);
+      }
+
+      &:after {
+        -webkit-transform: translateY(250%);
+        transform: translateY(250%);
+      }
+    }
+  }
+
+  body.menu-open{
+
+    .site-wrap{
+      -webkit-transform: translateX(-250px);
+    }
+  }
+  
+  .SelectCalendarioBg{
+    background: #0176a1 !important;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+  .container, #corpo, .footer_container{
+    width: initial;
+    max-width: 970px;
+  }
+
+  .col-xs-8,
+  .col-xs-4{
+    width: 100% !important;
+  }
+
+  #corpo.pag_inicial .Backazul{
+    margin-top: 0;
+  }
+
+  .melhores-home{
+    display:none;
+  }
+}
+
+@media (min-width: 480px) {
+
+}

@@ -1,0 +1,71 @@
+
+html{ overflow-x: hidden; }
+
+@media (max-width: 1194px) {
+    
+.Logo{
+    margin-top: 25px;
+    margin-left: 57px;
+    width: 178px;
+}
+    
+  .container, #corpo, .footer_container {
+    width: 970px;
+  }
+  .Flutuante{
+		position:fixed; 
+		right: 0;
+		z-index: 10000;
+		background: #fff;
+                box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+		width: 250px;
+	}
+  .checkbox_quartos {
+    right: 90px;
+  }
+  .back_fixed,.back_absolute{ width: 291px !important; }  
+  
+  .Backazul{ padding-left: 15px; }
+  
+  .LinksMenu { padding-right: 14px; }
+  .LinksMenu a { font-size: 12px; }
+  .post_simples_titulo{font-size:18px;}
+  
+  .footer_container .footer_l{padding-left:12px !important;}
+  .footer_c_cont{padding: 0 10px;}
+  .footer_c_inner {margin-top:25px;}
+  .divFrameEvent{height:372px !important;}
+  .Reserve,.Seuquarto{font-size:20px}
+  #map-canvas{
+    width: 614px;
+  }
+}
+
+@media (min-width: 1194px) {
+  .container, #corpo, .footer_container {
+    width: 1170px;
+  }
+  .Flutuante{
+		position:fixed; 
+		right:2%;
+		z-index: 10000;
+		background: #fff;
+                box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+		width: 300px;
+	}
+        
+  .checkbox_quartos {
+    right: 0;
+  }
+}
+
+@media (max-height: 645px) {
+    /*.TextBackzul{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }*/
+    
+    .dv_main{ margin-top: 5px; }
+    
+    .CalendarLabel{ margin: 0 !important;}
+  }

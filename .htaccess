@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /home
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^servicos-e-lazer /home/index.php?actionType=facilidades.servicos [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([A-Za-z-]*\/?)$ /home/index.php?actionType=$1 [L,QSA]

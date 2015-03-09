@@ -1,0 +1,60 @@
+/* 
+    Created on : 02/02/2014, 03:17:26
+    Author     : Joao Ahmad
+*/
+
+@keyframes rodar{
+  from {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rodar{
+  from {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+.ai-preload{
+  position: relative; 
+  float:left; 
+  background: #333
+}
+
+.ai-loader{
+  position:absolute;
+  width:50px;
+  height:50px;
+  left:50%;
+  top:50%;
+  margin-top:-25px;
+  margin-left:-25px;
+  background: #888;
+  -webkit-animation: rodar 2s linear infinite;
+  -moz-animation: rodar 2s linear infinite;
+  -ms-animation: rodar 2s linear infinite;
+  -o-animation: rodar 2s linear infinite;
+  animation: rodar 2s linear infinite;
+}

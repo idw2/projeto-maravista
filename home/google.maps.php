@@ -1,0 +1,5 @@
+<?php
+    $html .="<style>.gmaps{ width: 100%; height: 500px; } </style>";
+   // $html .='<div><iframe class='b l gmaps' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://maps.google.com/maps?q=Praia+de+Gerib%C3%A1+B%C3%BAzios+Rua+dos+Gravat%C3%A1s,+1058&hl=en&ie=UTF8&ll=-22.710956,-41.874046&spn=0.17197,0.217323&sll=-22.765418,-41.915245&sspn=0.171901,0.217323&t=h&hq=Praia+de+Gerib%C3%A1+B%C3%BAzios+Rua+dos+Gravat%C3%A1s,+1058&z=12&iwloc=A&lci=com.panoramio.all,com.google.webcams&amp;t=m&amp;output=embed&v=3'></iframe></div>';
+     $html .="<div><iframe class='gmaps' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29434.648540125025!2d-41.90840759013674!3d-22.753091817761682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ffe6cdc4e565%3A0x935a0092dc5a5f67!2spousada+maravista+buzios!5e0!3m2!1spt-BR!2s!4v1386696445956' frameborder='0' style='border:0'></iframe></div>";
+?>
